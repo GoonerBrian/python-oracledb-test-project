@@ -21,8 +21,10 @@ to the CISE Oracle DB and getting the results of simple queries.
 - Create a `.env` fill in the same directory as `test.py` with the following contents:
 
   ```
-  USER_NAME = john.doe
+  USER_NAME = "john.doe"
+  DB_USER_NAME = "JOHN.DOE"
   DB_PASSWORD = "password"
+  TABLE_NAME = "What_ever_your_table_name_is"
   ```
 
 - Run the following to run the script
