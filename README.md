@@ -10,7 +10,7 @@ to the CISE Oracle DB and getting the results of simple queries.
 - Create a simple table in the DB and populate it with some dummy data
 - Run the following to install the oracledb package
   ```
-  python3 -m pip install python-oracledb
+  python3 -m pip install oracledb
   ```
 - Run the following to install the dotenv package
 
